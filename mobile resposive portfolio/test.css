@@ -1,0 +1,224 @@
+@media only screen and (max-width: 767px) {
+    /* Adjust the header navigation for mobile */
+    /* .navbar {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        background-color: #333;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    .navbar a {
+        padding: 15px;
+        text-align: center;
+        width: 100%;
+    } */
+
+    /* Adjust the home section for mobile */
+    /* .home-content {
+        text-align: center;
+    }
+
+    .home-img {
+        display: none;
+    } */
+    .home-img img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .home-content {
+        max-width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .home-content h3 {
+        font-size: 30px;
+        animation-delay: 0.5s;
+    }
+    
+    .home-content h1 {
+        font-size: 40px;
+        animation-delay: 1s;
+    }
+    
+    .home-content p {
+        font-size: 20px;
+        animation-delay: 1s;
+    }
+    
+    .home-sci a {
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+        margin: 15px 10px;
+    }
+    /* buttons responisveness  */
+    .btn-box,
+    .btn1-box {
+        padding: 12px 28px;
+        border-radius: 40px;
+        font-size: 22px;
+        background-color: #0ef;
+        color: #081b29;
+        letter-spacing: 1px;
+        text-decoration: none;
+        font-weight: 600;
+        opacity: 0;
+        animation: slideTop 1s ease forwards;
+        animation-delay: 2s;
+        box-shadow: 0 0 5px #0ef, 0 0 200px cyan;
+        transition: box-shadow 0.3s ease; /* Added transition for smoother hover effect */
+    }
+    
+    .btn1-box {
+        padding: 10px 20px; /* Adjusted padding for better appearance */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 44px;
+    }
+    
+    .btn-box:hover,
+    .btn1-box:hover {
+        box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+    }
+    
+    /* Adjust the about section for mobile */
+    .about-text {
+        text-align: center;
+    }
+
+    /* Adjust the skills section for mobile */
+    .Technical-bars,
+    .radial-bars {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Adjust the activities section for mobile */
+    .act-img {
+        margin-bottom: 20px;
+    }
+
+    /* Adjust the contact section for mobile */
+    .contact-text {
+        text-align: center;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form input[type="textarea"] {
+        width: 100%;
+    }
+
+    .contact-form .send {
+        width: 100%;
+    }
+
+    .contact-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/* Media Query for Mobile Devices for radial */
+        /* Media queries for responsiveness */
+        @media (max-width: 768px) {
+            .radial-bar {
+                flex-basis: 50%; /* Two columns on small screens */
+            }
+        }
+
+        @media (max-width: 576px) {
+            .radial-bar {
+                flex-basis: 100%; /* Full width on extra small screens */
+            }
+        }
+
+
+        
+/* Media Query for Mobile Devices for activities */
+@media only screen and (max-width: 768px) {
+    .act-img {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .act-img img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .image-caption {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .sub-title {
+        font-size: 63px;
+        padding-bottom: 60px;
+    }
+
+    #services {
+        font-size: 18px;
+        line-height: 1.4;
+        margin-bottom: 2rem;
+    }
+}
+
+/* Media Query for Mobile Devices for contact me*/
+@media only screen and (max-width: 768px) {
+    .contact {
+        grid-template-columns: 1fr;
+        margin-top: 80px;
+        padding: 0;
+    }
+
+    .contact-text h2 {
+        font-size: 50px;
+    }
+
+    .contact-text h4 {
+        font-size: 18px;
+    }
+
+    .contact-text p {
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 1.5rem;
+    }
+
+    .contact-form form input,
+    .contact-form form textarea {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .contact-form form .send {
+        padding: 12px 40px;
+        font-size: 14px;
+        box-shadow: 0 0 5px #0ef, 0 0 100px cyan;
+    }
+
+    .contact-icons {
+        margin: 20px 0;
+    }
+
+    .contact-icons i:hover {
+        box-shadow: 0 0 15px #0ef;
+    }
+}
